@@ -12,7 +12,7 @@ class Carta
             @numero = numero
             @pinta = pinta
         else
-            raise ArgumentError.new('No es un argumento válido') #levanta un error
+            raise ArgumentError.new('No es un argumento válido') #levanta una exepcion del tipo ArgumentError
         end
     end
     #'f', pinta que no existe, entra igual al initialize
