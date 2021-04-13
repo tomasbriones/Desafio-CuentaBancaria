@@ -6,12 +6,9 @@ class Carta
         pinta.upcase!
         pinta = ['C','D','E','T']
 
-        #evaluamos si esta entre el rango correcto
-        if numero >= 1 && numero <= 13
+        #evaluamos si esta entre el rango correcto, evaluamos que la pinta sea la correcta
+        if (numero >= 1 && numero <= 13) && pinta.include?(pinta)
             @numero = numero
-        end
-        #evaluamos que la pinta sea la correcta
-        if pinta.include?(pinta)
             @pinta = pinta
         end
     end
