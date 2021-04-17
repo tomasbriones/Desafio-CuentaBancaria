@@ -25,7 +25,7 @@ end
 #1. Creun un arreglo vacio de cartas, para agregarle las futuras instancias de la clase Carta
 mazo = []
 #2. Creo un array de pintas para poder elegir al azar
-pintas = ['C','D','E','T']
+pintas = ['C','D','E','T'] #se pueden editar las pintas para que alerte el ArgumentError
 
 #3. Agrega al arreglo mazo, las instancias de la clase carta creadas
 5.times do |x|
